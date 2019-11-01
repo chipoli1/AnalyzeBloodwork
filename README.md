@@ -34,5 +34,8 @@ ggplot(IBS1, aes(x=BMI, y=SerumCortisol)) +
   geom_point() +    
   geom_smooth(method=lm) 
 ```
-![BMI_SerumCortisol](Rplot02.png)
+<center>
+  ![BMI_SerumCortisol](Rplot02.png)
+  </center>
+  
 ![BMI_SerumCortisol](../master/Images/Rplot02.png)
