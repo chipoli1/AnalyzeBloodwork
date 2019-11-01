@@ -1,12 +1,11 @@
 ## BTEC330 Hipolito Project2
 
 ## Install necessary packages
-
+```
 install.packages("ggplot2")
 library(ggplot2)
 df<-na.omit(IBS1)
 
-```
 ## Read data
 IBS1 <- read.csv("Data/RobinsonEtAl_Sup1.csv", header = TRUE)
 head(IBS1)
