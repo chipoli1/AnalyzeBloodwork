@@ -6,11 +6,12 @@ install.packages("ggplot2")
 library(ggplot2)
 df<-na.omit(IBS1)
 
+```
 ## Read data
 IBS1 <- read.csv("Data/RobinsonEtAl_Sup1.csv", header = TRUE)
 head(IBS1)
 write.csv(IBS1, "Data_Output/output.csv")
-
+```
 
 ##  Single Regressions for BMI vs. SerumCortisol
 ##  Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
