@@ -38,4 +38,3 @@ ggplot(IBS1, aes(x=BMI, y=SerumCortisol)) +
   <img width="410" height="500" src="../master/Images/Rplot02.png">
 </p>
   
-![BMI_SerumCortisol](../master/Images/Rplot02.png)
