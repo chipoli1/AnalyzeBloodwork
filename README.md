@@ -16,8 +16,8 @@ write.csv(IBS1, "Data_Output/output.csv")
 ```
 
 ###  Single Regressions for BMI vs. SerumCortisol
-## Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
-## https://statquest.org/2017/10/30/statquest-multiple-regression-in-r/
+# Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
+# https://statquest.org/2017/10/30/statquest-multiple-regression-in-r/
 #  http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
 #  http://r-statistics.co/Linear-Regression.html
 ```
@@ -26,7 +26,7 @@ single.regression <- lm(BMI ~ SerumCortisol, data=IBS1)
 summary(single.regression)
 ```
 
-## Scatterplots
+### Scatterplots
 # https://www.statmethods.net/graphs/scatterplot.html
 
 ```
