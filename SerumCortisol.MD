@@ -68,6 +68,6 @@ print(SerumCortisol_boxplot)
 dev.off()
 ```
 <p align="center">
-  <img width="410" height="500" src="../master/Images/Boxplot.png">
+  <img width="410" height="500" src="../Images/Boxplot.png">
 </p>
 
