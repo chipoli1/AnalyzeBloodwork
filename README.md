@@ -1,6 +1,6 @@
 # BTEC330 Hipolito Project2
 
-## Install necessary packages
+# Install necessary packages
 ```
 install.packages("ggplot2")
 library(ggplot2)
