@@ -64,6 +64,7 @@ dev.off()
   
 
 # Boxplots
+###### https://www.statmethods.net/graphs/boxplot.html
 ```
 SerumCortisol_boxplot <- boxplot(SerumCortisol ~ IBS.subtype, data = IBS, main="SerumCortisol by IBS subtype",
         xlab = "IBS.subtype", ylab = "SerumCortisol"
