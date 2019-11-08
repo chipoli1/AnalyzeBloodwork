@@ -34,6 +34,7 @@ sink()
 
 
 # ANOVA: IBS-subtype vs. SerumCortisol parameter
+###### http://www.sthda.com/english/wiki/one-way-anova-test-in-r
 ```
 SerumCortisol.aov <- aov(SerumCortisol ~ IBS.subtype, data=IBS)
 summary(SerumCortisol.aov)
