@@ -1,5 +1,5 @@
-<center> # BTEC330 PROJECT 2 </center>
-<italics> ## Submitted by Charmaine Hipolito </italics>
+**# BTEC330 PROJECT 2**
+*## Submitted by Charmaine Hipolito*
 
 # Install necessary packages
 ```
