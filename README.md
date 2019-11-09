@@ -1,5 +1,5 @@
 # BTEC330 PROJECT 2
-# Submitted by Charmaine Hipolito
+## Submitted by Charmaine Hipolito
 
 # Install necessary packages
 ```
