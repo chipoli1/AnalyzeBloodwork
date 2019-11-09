@@ -1,7 +1,7 @@
 
-# <p align="center"> **BTEC330 PROJECT 2** 
+# <p align="center"> **BTEC330 PROJECT 2** </p>
 
-## *Submitted by Charmaine Hipolito* </p>
+## <p align="center"> *Submitted by Charmaine Hipolito* </p>
 
 
 # Install necessary packages
