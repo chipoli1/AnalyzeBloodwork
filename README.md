@@ -1,4 +1,4 @@
-
+.remark-code, .remark-inline-code { font-family: 'Lucida Console' } 
 # <p align="center"> **BTEC330 PROJECT 2** </p>
 
 ## <p align="center"> *Submitted by Charmaine Hipolito* </p>
