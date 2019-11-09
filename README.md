@@ -5,7 +5,11 @@
 
 # Serum Cortisol Parameter  
 #### *What does the serum cortisol parameter in a CBC blood test tell you?*  
-###### A cortisol test is used to help diagnose disorders of the adrenal gland.
+##### A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol.
+
+###### Information taken from the following websites
+###### https://medlineplus.gov/lab-tests/cortisol-test/
+
 
 # Install necessary packages
 ```
