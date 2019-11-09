@@ -5,10 +5,10 @@
 
 # Serum Cortisol Parameter  
 #### *What does the serum cortisol parameter in a CBC blood test tell you?*
->block A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol.
+##### > A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol.
 
 #### *What is the normal range for serum cortisol?*  
->block The normal range for serum cortisol (in the mornings) is 7-28 μg/dL.
+> ##### The normal range for serum cortisol (in the mornings) is 7-28 μg/dL.
 
 ###### https://medlineplus.gov/lab-tests/cortisol-test/
 ###### https://emedicine.medscape.com/article/2088826-overview
