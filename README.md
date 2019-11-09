@@ -4,7 +4,8 @@
 ## <p align="center"> *Submitted by Charmaine Hipolito* </p>
 
 # Serum Cortisol Parameter  
-#### *What is the Serum Cortisol parameter in a CBC blood test?*
+#### *What does the serum cortisol parameter in a CBC blood test tell you?*  
+###### A cortisol test is used to help diagnose disorders of the adrenal gland.
 
 # Install necessary packages
 ```
