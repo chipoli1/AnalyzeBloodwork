@@ -19,11 +19,13 @@ IBS$SerumCortisol_result <- "NA"
 # Assign "HIGH", "NORMAL", or "LOW" based on clinical range to the SerumCortisol_result parameter
 ###### Range was obtained from https://emedicine.medscape.com/article/2088826-overview
 
+```
 IBS$SerumCortisol_result[IBS$SerumCortisol > 28] <- "HIGH"
 
 IBS$SerumCortisol_result[IBS$SerumCortisol <= 28 & IBS$SerumCortisol >= 7] <- "NORMAL"
 
 IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
+```
 
 #  Single Regressions for BMI vs. SerumCortisol
 ###### Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
