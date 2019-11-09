@@ -1,4 +1,5 @@
-# BTEC330 Hipolito Project2
+# BTEC330 PROJECT 2
+# Submitted by Charmaine Hipolito
 
 # Install necessary packages
 ```
@@ -32,7 +33,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 ###### http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
 ###### http://r-statistics.co/Linear-Regression.html
 
-# Single Regression Test, BMI vs. SerumCortisol parameter
+# Single Regression Test, BMI vs. SerumCortisol
 ```
 SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
 summary(SerumCortisol.regression)
@@ -46,7 +47,7 @@ sink()
 ```
 
 
-# ANOVA: IBS-subtype vs. SerumCortisol parameter
+# ANOVA: IBS-subtype vs. SerumCortisol 
 ###### http://www.sthda.com/english/wiki/one-way-anova-test-in-r
 ```
 SerumCortisol.aov <- aov(SerumCortisol ~ IBS.subtype, data=IBS)
