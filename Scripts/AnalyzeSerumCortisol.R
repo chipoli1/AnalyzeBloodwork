@@ -1,5 +1,6 @@
 # BTEC330 PROJECT 2
 ## Submitted by Charmaine Hipolito
+###### When opening this file in R, please set up working directory to AnalyzeSerumCortisol-master folder
 
 # Install necessary packages
 
