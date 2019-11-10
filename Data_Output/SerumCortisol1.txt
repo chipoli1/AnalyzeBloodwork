@@ -1,0 +1,114 @@
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
+
+Call:
+lm(formula = BMI ~ SerumCortisol, data = IBS)
+
+Coefficients:
+  (Intercept)  SerumCortisol  
+      31.9454        -0.5004  
+
+Call:
+   aov(formula = SerumCortisol ~ IBS.subtype, data = IBS)
+
+Terms:
+                IBS.subtype Residuals
+Sum of Squares       6.0765 1884.2895
+Deg. of Freedom           1       107
+
+Residual standard error: 4.196449
+Estimated effects may be unbalanced
+2 observations deleted due to missingness
