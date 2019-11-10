@@ -51,7 +51,7 @@ sink()
 ###### https://www.statmethods.net/graphs/scatterplot.html
 
 
-ggplot(IBS1, aes(x=BMI, y=SerumCortisol)) +
+ggplot(IBS, aes(x=BMI, y=SerumCortisol)) +
   geom_point() +    
   geom_smooth(method=lm) 
 
