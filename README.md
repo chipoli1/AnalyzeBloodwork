@@ -75,6 +75,9 @@ print(SerumCortisol.aov)
 sink()
 ```
 
+## Print scatterplot and box plots as .png files into "fig_output" project directory.
+###### http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization
+
 ## Scatterplots
 ###### https://www.statmethods.net/graphs/scatterplot.html
 ```
