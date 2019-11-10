@@ -33,6 +33,7 @@ SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
 summary(SerumCortisol.regression)
 
 # Output the results to a file
+###### http://www.cookbook-r.com/Data_input_and_output/Writing_text_and_output_from_analyses_to_a_file/
 sink('Data_Output/SerumCortisol1.txt', append = TRUE)
 print(SerumCortisol.regression)
 sink()
@@ -45,6 +46,9 @@ summary(SerumCortisol.aov)
 sink('Data_Output/SerumCortisol1.txt', append = TRUE)
 print(SerumCortisol.aov)
 sink()
+
+## Print scatterplot and box plots as .png files into "fig_output" project directory.
+###### http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization
 
 ## Scatterplots
 ###### https://www.statmethods.net/graphs/scatterplot.html
