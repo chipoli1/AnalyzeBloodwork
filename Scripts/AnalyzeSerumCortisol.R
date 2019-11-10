@@ -1,9 +1,8 @@
 # BTEC330 PROJECT 2
 ## Submitted by Charmaine Hipolito
-###### When opening this file in R, please set up working directory to AnalyzeSerumCortisol-master folder
+###### IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to AnalyzeSerumCortisol-master folder in order for the code to work
 
 # Install necessary packages
-
 install.packages("ggplot2")
 library(ggplot2)
 
