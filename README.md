@@ -2,6 +2,8 @@
 
 ## <p align="center"> *Submitted by Charmaine Hipolito* </p>
 
+###### <p align="center"> IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to AnalyzeSerumCortisol-master folder in order for the code to work </p>
+
 ## Serum Cortisol Parameter  
 #### *What does the serum cortisol parameter in a CBC blood test tell you?*
 > ##### A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol. 
