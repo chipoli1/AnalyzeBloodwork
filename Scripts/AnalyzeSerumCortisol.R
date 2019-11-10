@@ -6,7 +6,6 @@
 
 install.packages("ggplot2")
 library(ggplot2)
-df<-na.omit(IBS)
 
 # Read data
 IBS <- read.csv("Data/RobinsonEtAl_Sup1.csv", header = TRUE)
