@@ -14,6 +14,7 @@ write.csv(IBS, "Data_Output/output.csv")
 IBS$SerumCortisol_result <- "NA"
 
 # Assign "HIGH", "NORMAL", or "LOW" based on clinical range to the SerumCortisol_result parameter
+## The normal range for serum cortisol (in the mornings) is 7-28 μg/dL
 ###### Range was obtained from https://emedicine.medscape.com/article/2088826-overview
 
 IBS$SerumCortisol_result[IBS$SerumCortisol > 28] <- "HIGH"
@@ -23,7 +24,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol <= 28 & IBS$SerumCortisol >= 7] <- "N
 IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 
 
-#  Single Regressions for BMI vs. SerumCortisol
+# Single Regressions for BMI vs. SerumCortisol
 ######  Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
 ######  http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
 ######  http://r-statistics.co/Linear-Regression.html
