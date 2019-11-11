@@ -1,8 +1,10 @@
 # BTEC330 PROJECT 2
 ## Submitted by Charmaine Hipolito
-###### IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to AnalyzeSerumCortisol-master folder in order for the code to work
+###### When opening this file in R, please set up working directory to AnalyzeSerumCortisol-master folder
+
 
 # Install necessary packages
+
 install.packages("ggplot2")
 library(ggplot2)
 
@@ -14,7 +16,6 @@ write.csv(IBS, "Data_Output/output.csv")
 IBS$SerumCortisol_result <- "NA"
 
 # Assign "HIGH", "NORMAL", or "LOW" based on clinical range to the SerumCortisol_result parameter
-## The normal range for serum cortisol (in the mornings) is 7-28 μg/dL
 ###### Range was obtained from https://emedicine.medscape.com/article/2088826-overview
 
 IBS$SerumCortisol_result[IBS$SerumCortisol > 28] <- "HIGH"
@@ -24,7 +25,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol <= 28 & IBS$SerumCortisol >= 7] <- "N
 IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 
 
-# Single Regressions for BMI vs. SerumCortisol
+#  Single Regressions for BMI vs. SerumCortisol
 ######  Data was obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
 ######  http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
 ######  http://r-statistics.co/Linear-Regression.html
@@ -34,7 +35,6 @@ SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
 summary(SerumCortisol.regression)
 
 # Output the results to a file
-###### http://www.cookbook-r.com/Data_input_and_output/Writing_text_and_output_from_analyses_to_a_file/
 sink('Data_Output/SerumCortisol1.txt', append = TRUE)
 print(SerumCortisol.regression)
 sink()
@@ -47,9 +47,6 @@ summary(SerumCortisol.aov)
 sink('Data_Output/SerumCortisol1.txt', append = TRUE)
 print(SerumCortisol.aov)
 sink()
-
-## Print scatterplot and box plots as .png files into "fig_output" project directory.
-###### http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization
 
 ## Scatterplots
 ###### https://www.statmethods.net/graphs/scatterplot.html
@@ -72,7 +69,15 @@ dev.off()
 ###### https://www.statmethods.net/graphs/boxplot.html
 SerumCortisol_boxplot <- boxplot(SerumCortisol ~ IBS.subtype, data = IBS, main="SerumCortisol by IBS subtype",
         xlab = "IBS.subtype", ylab = "SerumCortisol",
-        col=(c("goldenrod1","lightcoral","plum2"))
+        col=(c("goldenrod1","lightcoral","plum2")),
+        staplelwd = 3,
+        staplecol = "sienna4",
+        medcol = "sienna4",
+        outpch = 10,
+        outcol = "palevioletred4",
+        outcex = 2,
+        whisklty = 10,
+        whiskcol = "salmon4"
         )
 print(SerumCortisol_boxplot)
 dev.off()
