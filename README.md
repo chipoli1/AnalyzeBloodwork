@@ -22,7 +22,7 @@
 ```
 install.packages("ggplot2")
 library(ggplot2)
-df<-na.omit(IBS)
+
 ```
 
 ## Read data
@@ -30,7 +30,7 @@ df<-na.omit(IBS)
 IBS <- read.csv("Data/RobinsonEtAl_Sup1.csv", header = TRUE)
 head(IBS)
 write.csv(IBS, "Data_Output/output.csv")
-
+df<-na.omit(IBS)
 IBS$SerumCortisol_result <- "NA"
 ```
 
