@@ -12,6 +12,7 @@ library(ggplot2)
 IBS <- read.csv("Data/RobinsonEtAl_Sup1.csv", header = TRUE)
 head(IBS)
 write.csv(IBS, "Data_Output/output.csv")
+df<-na.omit(IBS)
 
 IBS$SerumCortisol_result <- "NA"
 
