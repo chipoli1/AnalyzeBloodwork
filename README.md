@@ -12,12 +12,12 @@
 > ##### A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol. Cortisol plays an important role in stress response, infection control, blood sugar regulation, blood pressure maintenance, and metabolic regulation.
 
 
-###### Information obtained from [MedLine](https://medlineplus.gov/lab-tests/cortisol-test/)
+###### Information obtained from [MedLine](https://medlineplus.gov/lab-tests/cortisol-test/).
 
 #### *What is the normal range for serum cortisol?*  
 > ##### The normal range for serum cortisol (in the mornings when cortisol levels are at their highest) is 7-28 μg/dL.
 
-###### Information obtained from [Emedicine](https://emedicine.medscape.com/article/2088826-overview)
+###### Information obtained from [Medscape](https://emedicine.medscape.com/article/2088826-overview).
 
 
 ## Install necessary packages
@@ -37,7 +37,7 @@ IBS$SerumCortisol_result <- "NA"
 ```
 
 ## Assign "HIGH", "NORMAL", or "LOW" based on clinical range to the SerumCortisol_result parameter
-###### Range obtained from https://emedicine.medscape.com/article/2088826-overview
+###### Range obtained from [Medscape](https://emedicine.medscape.com/article/2088826-overview).
 
 ```
 IBS$SerumCortisol_result[IBS$SerumCortisol > 28] <- "HIGH"
@@ -48,9 +48,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 ```
 
 ##  Single Regression test for BMI vs. SerumCortisol
-###### Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208)
-###### [STHDA](http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/)
-###### [R-Statistics](http://r-statistics.co/Linear-Regression.html)
+###### Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208), [STHDA](http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/), [R-Statistics](http://r-statistics.co/Linear-Regression.html).
 
 ```
 SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
@@ -58,7 +56,7 @@ summary(SerumCortisol.regression)
 ```
 
 ## Output the results to a file
-###### Information obtained from http://www.cookbook-r.com/Data_input_and_output/Writing_text_and_output_from_analyses_to_a_file/
+###### Information obtained from [Cookbook-R](http://www.cookbook-r.com/Data_input_and_output/Writing_text_and_output_from_analyses_to_a_file/).
 ```
 sink('Data_Output/SerumCortisol1.txt', append = TRUE)
 print(SerumCortisol.regression)
@@ -67,7 +65,7 @@ sink()
 
 
 ## ANOVA: IBS-subtype vs. SerumCortisol 
-###### Information obtained from http://www.sthda.com/english/wiki/one-way-anova-test-in-r
+###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/one-way-anova-test-in-r).
 ```
 SerumCortisol.aov <- aov(SerumCortisol ~ IBS.subtype, data=IBS)
 summary(SerumCortisol.aov)
@@ -77,10 +75,10 @@ sink()
 ```
 
 ## Print scatterplot and box plots as .png files into "fig_output" project directory.
-###### Information obtained from http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization
+###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization).
 
 ## Scatterplots
-###### Information obtained from https://www.statmethods.net/graphs/scatterplot.html
+###### Information obtained from [Stat Methods](https://www.statmethods.net/graphs/scatterplot.html).
 ```
 ggplot(IBS1, aes(x=BMI, y=SerumCortisol)) +
   geom_point() +    
@@ -101,7 +99,7 @@ dev.off()
   
 
 ## Boxplots
-###### Information obtained from https://www.statmethods.net/graphs/boxplot.html
+###### Information obtained from [Stat Methods](https://www.statmethods.net/graphs/boxplot.html).
 ```
 SerumCortisol_boxplot <- boxplot(SerumCortisol ~ IBS.subtype, data = IBS, main="SerumCortisol by IBS subtype",
         xlab = "IBS.subtype", ylab = "SerumCortisol"
