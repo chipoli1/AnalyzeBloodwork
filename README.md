@@ -52,7 +52,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 ###### http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
 ###### http://r-statistics.co/Linear-Regression.html
 
-### Single Regression Test, BMI vs. SerumCortisol
+#### *Single Regression Test, BMI vs. SerumCortisol*
 ```
 SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
 summary(SerumCortisol.regression)
