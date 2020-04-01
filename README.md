@@ -47,7 +47,7 @@ IBS$SerumCortisol_result[IBS$SerumCortisol <= 28 & IBS$SerumCortisol >= 7] <- "N
 IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 ```
 
-##  Single Regression test for BMI vs. SerumCortisol
+##  Single regression test for BMI vs. SerumCortisol
 ###### Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208), [STHDA](http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/), [R-Statistics](http://r-statistics.co/Linear-Regression.html).
 
 ```
