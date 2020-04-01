@@ -8,12 +8,12 @@
 ##### [AnalyzeSerumCortisol.R](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Scripts/AnalyzeSerumCortisol.R) will allow you to load a comma-delimited .csv with various datapoints, perform single regressions of Body Mass Index (BMI) vs. Serum Cortisol from the complete blood count with differential (CBC-D) results, and produce 2-D scatterplots, and boxplots for the results.
 
 ## Serum cortisol parameter  
-### <p align="center"> *What does the serum cortisol parameter in a CBC blood test tell you?* </p>
+### <p align="center"> What does the serum cortisol parameter in a CBC blood test tell you? </p>
 ###### <p align="center"> Information obtained from [MedLinePlus](https://medlineplus.gov/lab-tests/cortisol-test/). </p>
 > #### A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol. Cortisol plays an important role in stress response, infection control, blood sugar regulation, blood pressure maintenance, and metabolic regulation.
 
 
-### <p align="center"> *What is the normal range for serum cortisol?* </p>
+### <p align="center"> What is the normal range for serum cortisol? </p>
 ###### <p align="center"> Information obtained from [Medscape](https://emedicine.medscape.com/article/2088826-overview). </p>
 > #### The normal range for serum cortisol (in the mornings when cortisol levels are at their highest) is 7-28 μg/dL.
 
