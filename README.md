@@ -77,7 +77,7 @@ sink()
 ## Print scatterplot and box plots as .png files into "fig_output" project directory.
 ###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization).
 
-## Scatterplots
+### Scatterplots
 ###### Information obtained from [Stat Methods](https://www.statmethods.net/graphs/scatterplot.html).
 ```
 ggplot(IBS1, aes(x=BMI, y=SerumCortisol)) +
@@ -98,7 +98,7 @@ dev.off()
 </p>
   
 
-## Boxplots
+### Boxplots
 ###### Information obtained from [Stat Methods](https://www.statmethods.net/graphs/boxplot.html).
 ```
 SerumCortisol_boxplot <- boxplot(SerumCortisol ~ IBS.subtype, data = IBS, main="SerumCortisol by IBS subtype",
