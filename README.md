@@ -1,6 +1,6 @@
 # <p align="center"> **BTEC330 PROJECT 2** </p>
 
-## <p align="center"> *Submitted by Charmaine Hipolito* </p>
+### <p align="center"> *Submitted by Charmaine Hipolito* </p>
 
 ###### <p align="center"> IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to AnalyzeSerumCortisol-master folder in order for the code to work </p>
 
