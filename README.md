@@ -14,6 +14,7 @@
 #### *What is the normal range for serum cortisol?*  
 > ##### The normal range for serum cortisol (in the mornings when cortisol levels are at their highest) is 7-28 μg/dL.
 
+###### Information obtained from:
 ###### https://medlineplus.gov/lab-tests/cortisol-test/
 ###### https://emedicine.medscape.com/article/2088826-overview
 
