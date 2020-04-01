@@ -12,12 +12,12 @@
 > ##### A cortisol test is used to help diagnose disorders of the adrenal gland. It does so by measuring the blood level of a stress hormone called cortisol. Cortisol plays an important role in stress response, infection control, blood sugar regulation, blood pressure maintenance, and metabolic regulation.
 
 
-###### Information obtained from [MedLine] (https://medlineplus.gov/lab-tests/cortisol-test/)
+###### Information obtained from [MedLine](https://medlineplus.gov/lab-tests/cortisol-test/)
 
 #### *What is the normal range for serum cortisol?*  
 > ##### The normal range for serum cortisol (in the mornings when cortisol levels are at their highest) is 7-28 μg/dL.
 
-###### Information obtained from [Emedicine] (https://emedicine.medscape.com/article/2088826-overview)
+###### Information obtained from [Emedicine](https://emedicine.medscape.com/article/2088826-overview)
 
 
 ## Install necessary packages
@@ -48,9 +48,9 @@ IBS$SerumCortisol_result[IBS$SerumCortisol < 7] <- "LOW"
 ```
 
 ##  Single Regression test for BMI vs. SerumCortisol
-###### Data obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
-###### http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/
-###### http://r-statistics.co/Linear-Regression.html
+###### Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208)
+###### [STHDA](http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/)
+###### [R-Statistics](http://r-statistics.co/Linear-Regression.html)
 
 ```
 SerumCortisol.regression <- lm(BMI ~ SerumCortisol, data=IBS)
