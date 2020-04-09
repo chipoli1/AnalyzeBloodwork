@@ -1,64 +1,107 @@
 # Homework submitted by Charmaine Hipolito
-# Set working directory to Scripts folder
+# The genes used in this project are CD8 T-cell
+# These are CD8A, GZMM, CD8B, PRF1, FLT3LG
 
 # Install necessary packages
 # Install packages ("ggplot2")
 install.packages("ggplot2")
 library(ggplot2)
 
+# Set working directory to Source File Location or Script folder
+
 # Read data
 IBS <- read.table("../Data/IBS_GX_Data.txt", sep = "\t", header = TRUE)
 
-# GENE 1: AKT3
+# GENE 1: CD8A
 # ANOVA Test
-AKT3.aov <- aov(AKT3 ~ IBSsubtype, data=IBS)
-summary(AKT3.aov)
-sink('../Data_Output/AKT3_ANOVA.txt', append = TRUE)
-print(AKT3.aov)
+CD8A.aov <- aov(CD8A ~ IBSsubtype, data=IBS)
+summary(CD8A.aov)
+sink('../Data_Output/CD8A_ANOVA.txt', append = TRUE)
+print(CD8A.aov)
 sink()
 
 # Print Out a Boxplot
-png("../Fig_Output/AKT3.png")
-AKT3_boxplot <- boxplot(AKT3 ~ IBSsubtype, data = IBS, main="AKT3 by IBS subtype",
-                          xlab = "IBSsubtype", ylab = "AKT3",
-                        col=(c("goldenrod1","lightcoral","plum2")),
-                        staplelwd = 3,
-                        staplecol = "sienna4",
-                        medcol = "sienna4",
-                        outpch = 10,
-                        outcol = "palevioletred4",
-                        outcex = 2,
-                        whisklty = 10,
-                        whiskcol = "salmon4"
+png("../Fig_Output/CD8A.png")
+CD8A_boxplot <- boxplot(CD8A ~ IBSsubtype, data = IBS, main="CD8A by IBS subtype",
+                          xlab = "IBSsubtype", ylab = "CD8A"
                           
 )
-print(AKT3_boxplot)
+print(CD8A_boxplot)
 dev.off()
 
 
 
-# GENE 2: AGO2
+# GENE 2: GZMM
 # ANOVA Test
-AGO2.aov <- aov(AGO2 ~ IBSsubtype, data=IBS)
-summary(AGO2.aov)
-sink('../Data_Output/AGO2_ANOVA.txt', append = TRUE)
-print(AGO2.aov)
+GZMM.aov <- aov(GZMM ~ IBSsubtype, data=IBS)
+summary(GZMM.aov)
+sink('../Data_Output/GZMM_ANOVA.txt', append = TRUE)
+print(GZMM.aov)
 sink()
 
 # Print Out a Boxplot
-png("../Fig_Output/AGO2.png")
-AGO2_boxplot <- boxplot(AGO2 ~ IBSsubtype, data = IBS, main="AGO2 by IBS subtype",
-                        xlab = "IBSsubtype", ylab = "AGO2",
-                        col=(c("goldenrod1","lightcoral","plum2")),
-                        staplelwd = 3,
-                        staplecol = "sienna4",
-                        medcol = "sienna4",
-                        outpch = 10,
-                        outcol = "palevioletred4",
-                        outcex = 2,
-                        whisklty = 10,
-                        whiskcol = "salmon4"
+png("../Fig_Output/GZMM.png")
+GZMM_boxplot <- boxplot(GZMM ~ IBSsubtype, data = IBS, main="GZMM by IBS subtype",
+                        xlab = "IBSsubtype", ylab = "GZMM"
                         
 )
-print(AGO2_boxplot)
+print(GZMM_boxplot)
 dev.off()
+
+
+
+# GENE 3: CD8B
+# ANOVA Test
+CD8B.aov <- aov(CD8B ~ IBSsubtype, data=IBS)
+summary(CD8B.aov)
+sink('../Data_Output/CD8B_ANOVA.txt', append = TRUE)
+print(CD8B.aov)
+sink()
+
+# Print Out a Boxplot
+png("../Fig_Output/CD8B.png")
+CD8B_boxplot <- boxplot(CD8B ~ IBSsubtype, data = IBS, main="CD8B by IBS subtype",
+                        xlab = "IBSsubtype", ylab = "CD8B"
+                        
+)
+print(CD8B_boxplot)
+dev.off()
+
+
+
+# GENE 4: PRF1
+# ANOVA Test
+PRF1.aov <- aov(PRF1 ~ IBSsubtype, data=IBS)
+summary(PRF1.aov)
+sink('../Data_Output/PRF1_ANOVA.txt', append = TRUE)
+print(PRF1.aov)
+sink()
+
+# Print Out a Boxplot
+png("../Fig_Output/PRF1.png")
+PRF1_boxplot <- boxplot(PRF1 ~ IBSsubtype, data = IBS, main="PRF1 by IBS subtype",
+                        xlab = "IBSsubtype", ylab = "PRF1"
+                        
+)
+print(PRF1_boxplot)
+dev.off()
+
+
+
+# GENE 5: FLT3LG
+# ANOVA Test
+FLT3LG.aov <- aov(FLT3LG ~ IBSsubtype, data=IBS)
+summary(FLT3LG.aov)
+sink('../Data_Output/FLT3LG_ANOVA.txt', append = TRUE)
+print(FLT3LG.aov)
+sink()
+
+# Print Out a Boxplot
+png("../Fig_Output/FLT3LG.png")
+FLT3LG_boxplot <- boxplot(FLT3LG ~ IBSsubtype, data = IBS, main="FLT3LG by IBS subtype",
+                        xlab = "IBSsubtype", ylab = "FLT3LG"
+                        
+)
+print(FLT3LG_boxplot)
+dev.off()
+
