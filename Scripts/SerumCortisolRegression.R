@@ -1,4 +1,4 @@
-##Iterative Regression Code & Result HW
+## Iterative Regression Code & Result HW
 ## Submitted by Charmaine Hipolito
 ## BTEC330 F2019 Project2 Robinson
 
@@ -26,6 +26,8 @@ IBS$Lymphocytes_result[IBS$Lymphocytes_PCT <= 53 & IBS$Lymphocytes_PCT >= 18] <-
 IBS$Lymphocytes_result[IBS$Lymphocytes_PCT < 18] <- "LOW"
 
 write.csv(IBS, "data_output/LymphocyteResult.csv")
+
+#### Start of homework for May 6th, 2020 (Iterative Regression Code and Results)
 
 ##  Single Regressions 
 ##  Data obtained from Robinson, et al. 2019 (doi: https://doi.org/10.1101/608208)
@@ -70,6 +72,7 @@ sink('../data_output/SerumCortisolGX.txt')
 print(storage)
 sink()
 
+#### End of Homework for May 6th, 2020 (Iterative Regression Code and Results)
 
 ## ANOVA: IBS-subtype vs. Bloodwork parameter
 ## http://www.sthda.com/english/wiki/one-way-anova-test-in-r
