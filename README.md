@@ -116,16 +116,23 @@ dev.off()
 ###### <p align="center"> IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to source file location. </p>
 
 ## Read in the table of fold changes
-```FCdata <- read.csv("../data/FCSerum.csv", row.names = 1, header = FALSE)```
+```
+FCdata <- read.csv("../data/FCSerum.csv", row.names = 1, header = FALSE)
+```
 
 ## Read in the table of expression data
-```IBS <- read.csv("../data/GXdata.csv", header = TRUE)```
+```
+IBS <- read.csv("../data/GXdata.csv", header = TRUE)
+```
 
 ## Access only the columns with RNA Expression (subsetting)
-```names(IBS)[28:277] ```
+```
+names(IBS)[28:277]
+```
 
 ## Make a list of anova(lm()) results for bloodwork parameter
-```storage <- list()
+```
+storage <- list()
 
 for(i in names(IBS)[28:277]){
   storage[[i]]  <- anova(lm(get(i) ~ Cortisol, IBS))
@@ -140,22 +147,29 @@ for(i in names(storage)){
 ```
 
 ## Convert the pValues list into a data frame. 
-```DFpvalues <- data.frame(matrix(unlist(pVals), nrow=length(pVals), byrow=T))```
+```
+DFpvalues <- data.frame(matrix(unlist(pVals), nrow=length(pVals), byrow=T))
+```
 
 ## Combine the results dataframes and write column labels
-```VolcanoPlotData <- cbind(FCdata, DFpvalues)
+```
+VolcanoPlotData <- cbind(FCdata, DFpvalues)
 names(VolcanoPlotData)[1] <- paste("log2(SlopeDiff)")
 names(VolcanoPlotData)[2] <- paste("-log10(Pval)")
 ```
 
 ## Add a column to evaluate significance
-```VolcanoPlotData$Sig <- ifelse(VolcanoPlotData$`-log10(Pval)` > 1.3, "Sig", "Insig");```
+```
+VolcanoPlotData$Sig <- ifelse(VolcanoPlotData$`-log10(Pval)` > 1.3, "Sig", "Insig");
+```
   
 ## Make a volcano-style scatterplot for these results
-```install.packages("ggplot2")
+```
+install.packages("ggplot2")
 library(ggplot2)
 # library(ggrepel)
 ```
+
 ```
 png("../fig_output/IL10plot.png")
 IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)`, label=rownames(VolcanoPlotData), color=Sig)) +
