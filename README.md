@@ -170,7 +170,7 @@ dev.off()
 ```
 
 <p align="center">
-  <img width="410" height="500" src="../master/Images/IL10plot.png">
+  <img width="500" height="500" src="../master/Images/IL10plot.png">
 </p>
 
 
