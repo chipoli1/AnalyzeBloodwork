@@ -111,9 +111,12 @@ dev.off()
   <img width="410" height="500" src="../master/Images/Boxplot2.png">
 </p>
 
+______________________________________________________________________________________
 
 ## <p align="center"> Data Transformation and Volcano Plots </p>
-###### <p align="center"> IMPORTANT NOTE: When opening the AnalyzeSerumCortisol.R script in R Studio, please set working directory to source file location. </p>
+###### <p align="center"> IMPORTANT NOTE: When opening the GXvolcanoplot.R script in R Studio, please set working directory to source file location. </p>
+###### Information obtained from [BioStars](https://www.biostars.org/p/84487/), [R-Bloggers](https://www.r-bloggers.com/example-8-14-generating-standardized-regression-coefficients/), [Data Analytics](https://www.dataanalytics.org.uk/beta-coefficients-from-linear-models/), [StatMethods](https://www.statmethods.net/management/subset.html), [YouTube](https://www.youtube.com/watch?v=7RSHooCnrkk), [Science Matters](https://sciencematters.io/articles/201706000011)
+
 
 ## Read in the table of fold changes
 ```
