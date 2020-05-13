@@ -1,0 +1,132 @@
+  [1] "A2M"      "AASS"     "ABCF1"    "ADAM9"   
+  [5] "AGO2"     "AKT3"     "Angptl4"  "ANP32B"  
+  [9] "ANXA1"    "APOE"     "Areg"     "ARL4D"   
+ [13] "Atf3"     "ATM"      "BATF"     "BCL2"    
+ [17] "BCL6"     "BHLHE40"  "BLK"      "BTLA"    
+ [21] "BTNL3"    "CCL13"    "CCL17"    "Ccl2"    
+ [25] "CCL22"    "Ccl3"     "Ccl4"     "CCL7"    
+ [29] "CCNG2"    "CCR2"     "CCR3"     "CCR5"    
+ [33] "CD14"     "CD160"    "CD163"    "CD19"    
+ [37] "CD1A"     "CD1B"     "CD1E"     "CD2"     
+ [41] "CD209"    "CD27"     "CD274"    "CD28"    
+ [45] "Cd300lb"  "CD33"     "CD38"     "CD3E"    
+ [49] "CD3G"     "CD4"      "CD40"     "CD40LG"  
+ [53] "CD6"      "CD68"     "CD8A"     "CD8B"    
+ [57] "CD9"      "CEBPB"    "CHIT1"    "Cited2"  
+ [61] "CLTC"     "CMA1"     "CR2"      "CSF2"    
+ [65] "CSF3R"    "CTLA4"    "CTSG"     "Cxcl10"  
+ [69] "CXCL13"   "CXCL5"    "CXCL8"    "CXCR4"   
+ [73] "CXCR6"    "Ddit4"    "DGCR8"    "DICER1"  
+ [77] "DOCK9"    "DROSHA"   "DUSP1"    "Dusp5"   
+ [81] "Egr2"     "Egr3"     "Enc1"     "Ets1"    
+ [85] "Etv3"     "EWSR1"    "F13A1"    "FEZ1"    
+ [89] "Fkbp5"    "FLT3LG"   "FOXP3"    "FPR2"    
+ [93] "FUT5"     "Fzd4"     "G6PD"     "GADD45A" 
+ [97] "GAPDH"    "GATA3"    "GLP1R"    "GNLY"    
+[101] "Gpr84"    "GSTM3"    "GUSB"     "GZMA"    
+[105] "GZMH"     "GZMM"     "HLA.DOB"  "HPRT1"   
+[109] "HPSE"     "HSD11B1"  "Hsp1a"    "ICOS"    
+[113] "Ier3"     "Ier5"     "Ifnb1"    "IFNG"    
+[117] "IL10"     "IL12b"    "IL12RB2"  "IL13"    
+[121] "Il15ra"   "IL17A"    "IL17RA"   "IL1A"    
+[125] "IL1B"     "IL1R2"    "Il1rn"    "IL2"     
+[129] "IL26"     "IL2RA"    "IL3"      "Il1f9"   
+[133] "IL3RA"    "IL4"      "IL4R"     "IL5"     
+[137] "IL5RA"    "IL6"      "IL7R"     "Irf1"    
+[141] "Jdp2"     "JUN"      "Junb"     "Kcnk6"   
+[145] "KIR3DL1"  "KIT"      "KLF15"    "Klf2"    
+[149] "Klf4"     "Klf7"     "Klf9"     "KLRD1"   
+[153] "KLRF1"    "LAIR2"    "LCN2"     "Lif"     
+[157] "LTA"      "LTK"      "LYZ"      "MAF"     
+[161] "MAP2K1"   "MAPK1"    "MAPK11"   "MAPK12"  
+[165] "MAPK13"   "MAPK14"   "MAPK8"    "MARCO"   
+[169] "MME"      "MS4A1"    "MS4A2"    "MSR1"    
+[173] "MT2A"     "MUC1"     "Mxd1"     "NCAM1"   
+[177] "NCR1"     "NEFL"     "NFATC4"   "Nfil3"   
+[181] "NFKB1"    "NFKB2"    "NFKBIA"   "NLRP2"   
+[185] "NMUR1"    "NR3C1"    "NT5E"     "NUMA1"   
+[189] "NUP107"   "SAAS"     "PDCD1"    "PDCD1LG2"
+[193] "Per1"     "Pfkfb3"   "PMCH"     "POLR2A"  
+[197] "Prdm1"    "PRF1"     "PRG2"     "PRKAA1"  
+[201] "PRODH"    "PTGDR2"   "Ptgs2"    "PTX3"    
+[205] "RAB11A"   "RAB8B"    "Rasgef1b" "REL"     
+[209] "RELA"     "RELB"     "REPS1"    "Rit1"    
+[213] "RORC"     "RPL19"    "CD62L"    "Sik1"    
+[217] "SLPI"     "SMAD2"    "SMPD3"    "STAT4"   
+[221] "STAT6"    "SYT17"    "TARBP2"   "TARP"    
+[225] "TAS1R3"   "TAS2R38"  "TBP"      "TBX21"   
+[229] "TGFB1"    "TGFB2"    "THBS1"    "TLR2"    
+[233] "TLR4"     "TNF"      "Tnfaip2"  "TNFRSF17"
+[237] "TNFRSF18" "TNFRSF4"  "TNFRSF9"  "Tnfsf4"  
+[241] "TOLLIP"   "TPSAB1"   "TRIO"     "Tsc22d3" 
+[245] "TUBB"     "USP9Y"    "VEGFA"    "XPO5"    
+[249] "ZFP36"    "ZNF205"  
+
+Call:
+lm(formula = get(i) ~ serum.IL10, data = IBS)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-19474.8  -2353.2   -302.3   2369.3  18072.2 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  48129.7     1521.1  31.642   <2e-16 ***
+serum.IL10    -344.9      633.3  -0.545    0.589    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6539 on 45 degrees of freedom
+  (49 observations deleted due to missingness)
+Multiple R-squared:  0.006548,	Adjusted R-squared:  -0.01553 
+F-statistic: 0.2966 on 1 and 45 DF,  p-value: 0.5887
+
+[1] 0.006548166
+ (Intercept)   serum.IL10 
+2.177914e-32 5.887046e-01 
+
+Call:
+lm(formula = Body.Mass.Index..BMI...kg.m.2. ~ Serum.Cortisol..ug.dL., 
+    data = IBS)
+
+Coefficients:
+           (Intercept)  Serum.Cortisol..ug.dL.  
+               32.7926                 -0.5862  
+
+
+Call:
+lm(formula = Body.Mass.Index..BMI...kg.m.2. ~ Serum.Cortisol..ug.dL., 
+    data = IBS)
+
+Coefficients:
+           (Intercept)  Serum.Cortisol..ug.dL.  
+               32.7926                 -0.5862  
+
+
+Call:
+lm(formula = Body.Mass.Index..BMI...kg.m.2. ~ Serum.Cortisol..ug.dL., 
+    data = IBS)
+
+Coefficients:
+           (Intercept)  Serum.Cortisol..ug.dL.  
+               32.7926                 -0.5862  
+
+
+Call:
+lm(formula = Body.Mass.Index..BMI...kg.m.2. ~ Serum.Cortisol..ug.dL., 
+    data = IBS)
+
+Coefficients:
+           (Intercept)  Serum.Cortisol..ug.dL.  
+               32.7926                 -0.5862  
+
+
+Call:
+lm(formula = Body.Mass.Index..BMI...kg.m.2. ~ Serum.Cortisol..ug.dL., 
+    data = IBS)
+
+Coefficients:
+           (Intercept)  Serum.Cortisol..ug.dL.  
+               32.7926                 -0.5862  
+
