@@ -167,10 +167,11 @@ IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)
 
 print(IL10plot + ggtitle("Gene Expression vs. IL-10 Level"))
 dev.off()
+```
 
 <p align="center">
   <img width="410" height="500" src="../master/Images/IL10plot.png">
 </p>
-```
+
 
 
