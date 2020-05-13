@@ -122,7 +122,7 @@ dev.off()
 ```IBS <- read.csv("../data/GXdata.csv", header = TRUE)```
 
 ## Access only the columns with RNA Expression (subsetting)
-```names(IBS)[28:277]``
+```names(IBS)[28:277] ```
 
 ## Make a list of anova(lm()) results for bloodwork parameter
 ```storage <- list()
@@ -167,6 +167,10 @@ IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)
 
 print(IL10plot + ggtitle("Gene Expression vs. IL-10 Level"))
 dev.off()
+
+<p align="center">
+  <img width="410" height="500" src="../master/Images/IL10plot.png">
+</p>
 ```
 
 
