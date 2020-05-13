@@ -115,7 +115,7 @@ ________________________________________________________________________________
 
 ## <p align="center"> Data Transformation and Volcano Plots </p>
 ###### <p align="center"> IMPORTANT NOTE: When opening the GXvolcanoplot.R script in R Studio, please set working directory to source file location. </p>
-###### Information obtained from [BioStars](https://www.biostars.org/p/84487/), [R-Bloggers](https://www.r-bloggers.com/example-8-14-generating-standardized-regression-coefficients/), [Data Analytics](https://www.dataanalytics.org.uk/beta-coefficients-from-linear-models/), [StatMethods](https://www.statmethods.net/management/subset.html), [YouTube](https://www.youtube.com/watch?v=7RSHooCnrkk), [Science Matters](https://sciencematters.io/articles/201706000011)
+###### Information obtained from [BioStars](https://www.biostars.org/p/84487/), [R-Bloggers](https://www.r-bloggers.com/example-8-14-generating-standardized-regression-coefficients/), [Data Analytics](https://www.dataanalytics.org.uk/beta-coefficients-from-linear-models/), [StatMethods](https://www.statmethods.net/management/subset.html), [YouTube](https://www.youtube.com/watch?v=7RSHooCnrkk), [Science Matters](https://sciencematters.io/articles/201706000011).
 
 
 ## Read in the table of fold changes
@@ -134,6 +134,8 @@ names(IBS)[28:277]
 ```
 
 ## Make a list of anova(lm()) results for bloodwork parameter
+###### Information obtained from [Stack Exchange](https://stats.stackexchange.com/questions/115304/interpreting-output-from-anova-when-using-lm-as-input).
+
 ```
 storage <- list()
 
@@ -150,11 +152,14 @@ for(i in names(storage)){
 ```
 
 ## Convert the pValues list into a data frame. 
+###### Information obtained from [Stack Overflow](https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame).
 ```
 DFpvalues <- data.frame(matrix(unlist(pVals), nrow=length(pVals), byrow=T))
 ```
 
 ## Combine the results dataframes and write column labels
+###### Information obtained from [StatMethods](https://www.statmethods.net/management/merging.html), [Stack Overflow](https://stackoverflow.com/questions/6081439/changing-column-names-of-a-data-frame).
+
 ```
 VolcanoPlotData <- cbind(FCdata, DFpvalues)
 names(VolcanoPlotData)[1] <- paste("log2(SlopeDiff)")
@@ -162,11 +167,13 @@ names(VolcanoPlotData)[2] <- paste("-log10(Pval)")
 ```
 
 ## Add a column to evaluate significance
+###### Information obtained from [Stack Overflow](https://stackoverflow.com/questions/47764458/r-calculate-data-frame-and-assign-result-to-new-column)
 ```
 VolcanoPlotData$Sig <- ifelse(VolcanoPlotData$`-log10(Pval)` > 1.3, "Sig", "Insig");
 ```
   
 ## Make a volcano-style scatterplot for these results
+###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/ggplot2-texts-add-text-annotations-to-a-graph-in-r-software), [Stack Overflow](https://stackoverflow.com/questions/52397363/r-ggplot2-ggrepel-label-a-subset-of-points-while-being-aware-of-all-points), [GGPlot2-Book](https://ggplot2-book.org/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization), [Stack Overflow](https://stackoverflow.com/questions/15015356/how-to-do-selective-labeling-with-ggplot-geom-point), [R-Bloggers](https://www.r-bloggers.com/annotating-select-points-on-an-x-y-plot-using-ggplot2/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatterplot-easy-scatter-plot-using-ggplot2-and-r-statistical-software).
 ```
 install.packages("ggplot2")
 library(ggplot2)
