@@ -238,4 +238,8 @@ dev.off()
 ## Gene ontology analysis for the significant genes
 ###### Information obtained from [Panther](http://pantherdb.org/) 
 
+<p align="center">
+  <img width="500" height="700" src="../master/Images/GoAnalysis.png">
+</p>
+
 
