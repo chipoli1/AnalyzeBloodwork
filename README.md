@@ -236,8 +236,8 @@ dev.off()
 
 
 ## Gene ontology analysis for the significant genes
-##### [GOAnalysisCortisol.txt](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Documents/GOAnalysisCortisol.txt) interprets the differential gene expression results in order to provide a better biological meaning of these results. Gene Ontology is a classification system that classifies the genes by its biological processes, cellular components, and molecular functions.
-###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/)
+##### Gene Ontology is a classification system that classifies the genes by its biological processes, cellular components, and molecular functions. [GOAnalysisCortisol.txt](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Documents/GOAnalysisCortisol.txt) interprets the differential gene expression results in order to provide a better biological meaning of these results. 
+###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/).
 
 <p align="center">
   <img width="700" height="650" src="../master/Images/GoAnalysisCortisol.png">
