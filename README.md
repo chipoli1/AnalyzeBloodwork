@@ -213,7 +213,7 @@ dev.off()
   <img width="500" height="500" src="../master/Images/IL10plot.png">
 </p>
 
-## List all the differential expressed/significant genes
+## List all the differentially expressed/significant genes
 ### Significant Genes for Serum Cortisol 
 ###### Information obtained from [Gene Cards](https://www.genecards.org/) 
 
