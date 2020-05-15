@@ -212,21 +212,21 @@ dev.off()
 ### <p align="center"> Significant Genes for Serum Cortisol </p>
 ###### <p align="center"> Information obtained from [Gene Cards](https://www.genecards.org/) </p> 
 
-  
-|Gene|Aliases|
+
+|**GENE**|**ALIAS**|
 |:--:|:-------:|
-|BHLHE40|Basic Helix-Loop-Helix Family Member E40|
-|BTNL3|Butyrophilin Like 3|
-|CD1E|T-Cell Surface Glycoprotein CD1e, Membrane-Associated|
-|CD274|Programmed Cell Death 1 Ligand 1|
-|CD4|T-Cell Surface Antigen T4/Leu-3|
-|Ddit4|DNA Damage Inducible Transcript 4|
-|Dusp5|Dual Specificity Phosphatase 5|
-|Fzd4|Frizzled Class Receptor 4|
-|IL4|Interleukin 4|
-|KIT|KIT Proto-Oncogene, Receptor Tyrosine Kinase|
-|MSR1|Macrophage Scavenger Receptor 1|
-|RAB8B|RAB8B, Member RAS Oncogene Family|
-|Tnfaip2|Tumor Necrosis Factor Alpha-Induced Protein 2|
+|**BHLHE40**|Basic Helix-Loop-Helix Family Member E40|
+|**BTNL3**|Butyrophilin Like 3|
+|**CD1E**|T-Cell Surface Glycoprotein CD1e, Membrane-Associated|
+|**CD274**|Programmed Cell Death 1 Ligand 1|
+|**CD4**|T-Cell Surface Antigen T4/Leu-3|
+|**Ddit4**|DNA Damage Inducible Transcript 4|
+|**Dusp5**|Dual Specificity Phosphatase 5|
+|**Fzd4**|Frizzled Class Receptor 4|
+|**IL4**|Interleukin 4|
+|**KIT**|KIT Proto-Oncogene, Receptor Tyrosine Kinase|
+|**MSR1**|Macrophage Scavenger Receptor 1|
+|**RAB8B**|RAB8B, Member RAS Oncogene Family|
+|**Tnfaip2**|Tumor Necrosis Factor Alpha-Induced Protein 2|
 
 
