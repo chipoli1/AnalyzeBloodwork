@@ -1,6 +1,6 @@
 ## Project submitted by Charmaine Hipolito
 ## Serum Cortisol Parameter
-## BTEC330 S2020 GX Robinson
+## BTEC395 S2020 GX Robinson
 
 
 ## Set working directory to source file location
