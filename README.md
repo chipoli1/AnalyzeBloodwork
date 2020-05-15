@@ -233,7 +233,7 @@ dev.off()
 <table>
   <tbody>
     <tr>
-      ** <td align="center"> GENE <br> **
+      <td align="center"> <bold>GENE</bold> <br> 
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
