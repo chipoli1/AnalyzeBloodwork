@@ -212,9 +212,10 @@ dev.off()
 ### <p align="center"> Significant Genes for Serum Cortisol </p>
 ###### <p align="center"> Information obtained from [Gene Cards](https://www.genecards.org/) </p> 
 
+<center>
 
 |**GENE**|**ALIAS**|
-|:--:|:-------:|
+|:--:|:-------|
 |**BHLHE40**|Basic Helix-Loop-Helix Family Member E40|
 |**BTNL3**|Butyrophilin Like 3|
 |**CD1E**|T-Cell Surface Glycoprotein CD1e, Membrane-Associated|
@@ -229,4 +230,4 @@ dev.off()
 |**RAB8B**|RAB8B, Member RAS Oncogene Family|
 |**Tnfaip2**|Tumor Necrosis Factor Alpha-Induced Protein 2|
 
-
+</center>
