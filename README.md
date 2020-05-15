@@ -116,13 +116,13 @@ ________________________________________________________________________________
 # <p align="center"> **BTEC395 PROJECT** </p>
 ## <p align="center"> Data Transformation and Volcano Plots </p> 
 ###### <p align="center"> IMPORTANT NOTE: When opening the GXvolcanoplot.R script in R Studio, please set working directory to source file location. </p>
+###### <p align="center"> Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208). </p>
+###### <p align="center"> Information obtained from [BioStars](https://www.biostars.org/p/84487/), [R-Bloggers](https://www.r-bloggers.com/example-8-14-generating-standardized-regression-coefficients/), [Data Analytics](https://www.dataanalytics.org.uk/beta-coefficients-from-linear-models/), [StatMethods](https://www.statmethods.net/management/subset.html), [YouTube](https://www.youtube.com/watch?v=7RSHooCnrkk), [Science Matters](https://sciencematters.io/articles/201706000011). </p>
 
 
 ## About the project
 ##### [SerumCortisolGXVolcanoPlot.R](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Scripts/SerumCortisolGXvolcanoplot.R) project will familiarize you with tasks necessary to produce differential expression results and a corresponding volcano plot.  These tasks include transforming data, handling data in R including extracting statistical results, combining rows and columns, writing FOR loops and IFELSE commands, and intermediate features of ggplot2.  You will become familiar with interpretation of volcano plots for displaying differential expression results. 
 
-###### <p align="center"> Data obtained from [Robinson, et al. 2019](https://doi.org/10.1101/608208). </p>
-###### <p align="center"> Information obtained from [BioStars](https://www.biostars.org/p/84487/), [R-Bloggers](https://www.r-bloggers.com/example-8-14-generating-standardized-regression-coefficients/), [Data Analytics](https://www.dataanalytics.org.uk/beta-coefficients-from-linear-models/), [StatMethods](https://www.statmethods.net/management/subset.html), [YouTube](https://www.youtube.com/watch?v=7RSHooCnrkk), [Science Matters](https://sciencematters.io/articles/201706000011). </p>
 
 
 
