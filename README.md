@@ -245,4 +245,4 @@ dev.off()
 |----------------|-|-|--------|---------------|---|-----------|
 |Oxidative stress response|55|1|.03|29.16|+|3.43E-02|
 
-> ##### **PATHWAY DESCRIPTION:** Oxidative stress is a pathogenic condition that causes cellular damage. In a normal functioning cell, several transcription factors respond to this threat by modulating expression of genes whose products relieve the altered redox status. This pathway illustrates some of the intracellular signalling response regulating such gene expression. *[GeneOntology](http://pantherdb.org/pathway/pathDetail.do?clsAccession=P00046)*
+> ##### **PATHWAY DESCRIPTION:** Oxidative stress is a pathogenic condition that causes cellular damage. In a normal functioning cell, several transcription factors respond to this threat by modulating expression of genes whose products relieve the altered redox status. This pathway illustrates some of the intracellular signalling response regulating such gene expression (*[GeneOntology](http://pantherdb.org/pathway/pathDetail.do?clsAccession=P00046)*).
