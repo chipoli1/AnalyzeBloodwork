@@ -190,11 +190,6 @@ library(ggplot2)
  
 ## Output the result of the serum cortisol volcano plot into Fig_Output folder
 ###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/ggplot2-texts-add-text-annotations-to-a-graph-in-r-software), [Stack Overflow](https://stackoverflow.com/questions/52397363/r-ggplot2-ggrepel-label-a-subset-of-points-while-being-aware-of-all-points), [GGPlot2-Book](https://ggplot2-book.org/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization), [Stack Overflow](https://stackoverflow.com/questions/15015356/how-to-do-selective-labeling-with-ggplot-geom-point), [R-Bloggers](https://www.r-bloggers.com/annotating-select-points-on-an-x-y-plot-using-ggplot2/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatterplot-easy-scatter-plot-using-ggplot2-and-r-statistical-software).
-```
-install.packages("ggplot2")
-library(ggplot2)
-# library(ggrepel)
-```
 
 ```
 png("../fig_output/IL10plot.png")
