@@ -230,14 +230,10 @@ dev.off()
 |**Tnfaip2**|Tumor Necrosis Factor Alpha-Induced Protein 2|
 
 
-It is possible to center a table. Essentially, on github the table is already width 100%, you just need to give the tbody enough content for it take up 100% width too.
-
-The trick: fill it with spaces.
-
 <table>
   <tbody>
     <tr>
-      <td align="center">Key Features<br>
+      ** <td align="center"> GENE <br> **
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
