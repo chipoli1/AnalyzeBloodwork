@@ -239,5 +239,5 @@ dev.off()
 ###### Information obtained from [Panther](http://pantherdb.org/) 
 
 <p align="center">
-  <img width="500" height="500" src="../master/Images/GoAnalysisCortisol.png">
+  <img width="550" height="650" src="../master/Images/GoAnalysisCortisol.png">
 </p>
