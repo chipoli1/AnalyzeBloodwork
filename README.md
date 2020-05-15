@@ -240,8 +240,9 @@ dev.off()
 ###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/).
 
 
-
-|PANTHER Pathways|#|#|Expected|Fold Enrichment|+/-|raw P value|
+|Homo sapiens|Client Text Input|
+|------------|-----------------|
+|PANTHER Pathways|#|#|Expected|Fold Enrichment|+/-|Raw P value|
 |----------------|-|-|--------|---------------|---|-----------|
 |Oxidative stress response|55|1|.03|29.16|+|3.43E-02|
 
