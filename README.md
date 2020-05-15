@@ -197,14 +197,14 @@ library(ggplot2)
 
 ```
 png("../fig_output/SerumCortisolplot.png")
-IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)`, label=rownames(VolcanoPlotData), color=Sig)) +
+SerumCortisolplot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)`, label=rownames(VolcanoPlotData), color=Sig)) +
   geom_point(aes(color = Sig)) +
   scale_color_manual(values = c("grey", "red")) +
   theme_bw(base_size = 12) + theme(legend.position = "bottom") +
   geom_text(aes(x = `log2(SlopeDiff)`,y = `-log10(Pval)`, fontface = 1, size=3,  label=row.names(VolcanoPlotData)))
   
 
-print(IL10plot + ggtitle("Gene Expression vs. Serum Cortisol Level"))
+print(SerumCortisolplot + ggtitle("Gene Expression vs. Serum Cortisol Level"))
 dev.off()
 ```
 ### <p align="center"> Volcano Plot </p>
