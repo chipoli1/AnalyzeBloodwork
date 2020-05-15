@@ -239,11 +239,11 @@ dev.off()
 ##### Gene Ontology is a classification system that classifies the genes by its biological processes, cellular components, and molecular functions. [GOAnalysis.txt](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Documents/GoAnalysis.txt) interprets the differential gene expression results in order to provide a better biological meaning of these results. 
 ###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/).
 
-###### Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)/
-###### Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14</br>
-###### Analyzed List:	Client Text Box Input (Homo sapiens)</br>
-###### Reference List:	Homo sapiens (all genes in database)</br>
-###### Test Type:	FISHER</br>
+###### Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)\
+Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14\
+###### Analyzed List:	Client Text Box Input (Homo sapiens)
+###### Reference List:	Homo sapiens (all genes in database)
+###### Test Type:	FISHER<
 ###### Correction: NONE
 
 
