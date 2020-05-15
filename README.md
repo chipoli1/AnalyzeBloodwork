@@ -136,7 +136,7 @@ IBS <- read.csv("../data/GXdata.csv", header = TRUE)
 names(IBS)[28:277]
 ```
 
-## Make a list of anova(lm()) results for bloodwork parameter
+## Make a list of anova(lm()) results for serum cortisol
 ###### Information obtained from [Stack Exchange](https://stats.stackexchange.com/questions/115304/interpreting-output-from-anova-when-using-lm-as-input).
 
 ```
@@ -154,7 +154,7 @@ for(i in names(storage)){
 }
 ```
 
-## Convert the pValues list into a data frame. 
+## Convert the serum cortisol pValues list into a data frame. 
 ###### Information obtained from [Stack Overflow](https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame).
 ```
 DFpvalues <- data.frame(matrix(unlist(pVals), nrow=length(pVals), byrow=T))
@@ -174,8 +174,15 @@ names(VolcanoPlotData)[2] <- paste("-log10(Pval)")
 ```
 VolcanoPlotData$Sig <- ifelse(VolcanoPlotData$`-log10(Pval)` > 1.3, "Sig", "Insig");
 ```
-  
-## Make a volcano-style scatterplot for the results
+
+## Install necessary packages
+```
+install.packages("ggplot2")
+library(ggplot2)
+# library(ggrepel)
+ ```
+ 
+## Output the result of the serum cortisol volcano plot into Fig_Output folder
 ###### Information obtained from [STHDA](http://www.sthda.com/english/wiki/ggplot2-texts-add-text-annotations-to-a-graph-in-r-software), [Stack Overflow](https://stackoverflow.com/questions/52397363/r-ggplot2-ggrepel-label-a-subset-of-points-while-being-aware-of-all-points), [GGPlot2-Book](https://ggplot2-book.org/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization), [Stack Overflow](https://stackoverflow.com/questions/15015356/how-to-do-selective-labeling-with-ggplot-geom-point), [R-Bloggers](https://www.r-bloggers.com/annotating-select-points-on-an-x-y-plot-using-ggplot2/), [STHDA](http://www.sthda.com/english/wiki/ggplot2-scatterplot-easy-scatter-plot-using-ggplot2-and-r-statistical-software).
 ```
 install.packages("ggplot2")
@@ -201,5 +208,30 @@ dev.off()
   <img width="500" height="500" src="../master/Images/IL10plot.png">
 </p>
 
+## List all significant genes
+<p align="center"> Significant Genes for Serum Cortisol </p>
+<p align="center"> ###### Information obtained from [Gene Cards](https://www.genecards.org/) </p> 
+
+  
+<p align="center"> 
+
+|Gene|Aliases|
+|:--:|:-------:|
+|BHLHE40|Basic Helix-Loop-Helix Family Member E40|
+|BTNL3|Butyrophilin Like 3|
+|CD1E|T-Cell Surface Glycoprotein CD1e, Membrane-Associated|
+|CD274|Programmed Cell Death 1 Ligand 1|
+|CD4|T-Cell Surface Antigen T4/Leu-3|
+|Ddit4|DNA Damage Inducible Transcript 4|
+|Dusp5|Dual Specificity Phosphatase 5|
+|Fzd4|Frizzled Class Receptor 4|
+|IL4|Interleukin 4|
+|KIT|KIT Proto-Oncogene, Receptor Tyrosine Kinase|
+|MSR1|Macrophage Scavenger Receptor 1|
+|RAB8B|RAB8B, Member RAS Oncogene Family|
+|Tnfaip2|Tumor Necrosis Factor Alpha-Induced Protein 2|
+
+
+</p>
 
 
