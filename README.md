@@ -212,7 +212,6 @@ dev.off()
 ### <p align="center"> Significant Genes for Serum Cortisol </p>
 ###### <p align="center"> Information obtained from [Gene Cards](https://www.genecards.org/) </p> 
 
-<center>
 
 |**GENE**|**ALIAS**|
 |:--:|:-------|
@@ -230,4 +229,15 @@ dev.off()
 |**RAB8B**|RAB8B, Member RAS Oncogene Family|
 |**Tnfaip2**|Tumor Necrosis Factor Alpha-Induced Protein 2|
 
-</center>
+<table>
+  <tbody>
+    <tr>
+      <td align="center">Key Features<br>
+        <span>**BHLHE40**</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>    
+        <span>&nbsp;&nbsp;</span>
