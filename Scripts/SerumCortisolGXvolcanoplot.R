@@ -46,7 +46,7 @@ library(ggplot2)
 # library(ggrepel)
 
 ##  Output the result of the Serum Cortisol volcano plot into Fig_Output folder
-png("../fig_output/IL10plot.png")
+png("../fig_output/SerumCortisolplot.png")
 IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)`, label=rownames(VolcanoPlotData), color=Sig)) +
   geom_point(aes(color = Sig)) +
   scale_color_manual(values = c("grey", "red")) +
