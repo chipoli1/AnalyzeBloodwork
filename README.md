@@ -241,8 +241,8 @@ dev.off()
 
 
 
-|PANTHER Pathways|#|#|expected|Fold Enrichment|+/-|raw P value|
+|PANTHER Pathways|#|#|Expected|Fold Enrichment|+/-|raw P value|
 |----------------|-|-|--------|---------------|---|-----------|
-|Oxidative stress response|55|1	.03|29.16|+|3.43E-02|
+|Oxidative stress response|55|1|.03|29.16|+|3.43E-02|
 
 
