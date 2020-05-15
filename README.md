@@ -241,7 +241,7 @@ dev.off()
 
 
 
-|PANTHER Pathways|Homo Sapiens REF#|Client Text Input #|Expected|Fold Enrichment|+/-|Raw P value|
+|PANTHER Pathways|Homo Sapiens REF#|Client Text Input (CTI) #|CTI Expected|CTI Fold Enrichment|CTI +/-|CTI Raw P value|
 |----------------|-|-|--------|---------------|---|-----------|
 |Oxidative stress response|55|1|.03|29.16|+|3.43E-02|
 
