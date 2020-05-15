@@ -200,7 +200,7 @@ IL10plot <- ggplot(VolcanoPlotData, aes(x = `log2(SlopeDiff)`, y = `-log10(Pval)
   geom_text(aes(x = `log2(SlopeDiff)`,y = `-log10(Pval)`, fontface = 1, size=3,  label=row.names(VolcanoPlotData)))
   
 
-print(IL10plot + ggtitle("Gene Expression vs. IL-10 Level"))
+print(IL10plot + ggtitle("Gene Expression vs. Serum Cortisol Level"))
 dev.off()
 ```
 ### <p align="center"> Volcano Plot </p>
