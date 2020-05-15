@@ -240,7 +240,7 @@ dev.off()
 ###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/).
 
 ###### Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)\
-Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14\
+###### Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14\
 ###### Analyzed List:	Client Text Box Input (Homo sapiens)
 ###### Reference List:	Homo sapiens (all genes in database)
 ###### Test Type:	FISHER<
