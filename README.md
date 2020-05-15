@@ -124,7 +124,7 @@ ________________________________________________________________________________
 
 
 ## About the project
-##### [SerumCortisolGXVolcanoPlot.R](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Scripts/SerumCortisolGXvolcanoplot.R) project will familiarize you with tasks necessary to produce differential expression results and a corresponding volcano plot.  These tasks include transforming data, handling data in R including extracting statistical results, combining rows and columns, writing FOR loops and IFELSE commands, and intermediate features of ggplot2.  You will become familiar with interpretation of volcano plots for displaying differential expression results. 
+##### [SerumCortisolFinalProject.R](https://github.com/chipoli1/AnalyzeSerumCortisol/blob/master/Scripts/SerumCortisolFinalProject.R) project will familiarize you with tasks necessary to produce differential expression results and a corresponding volcano plot.  These tasks include transforming data, handling data in R including extracting statistical results, combining rows and columns, writing FOR loops and IFELSE commands, and intermediate features of ggplot2.  You will become familiar with interpretation of volcano plots for displaying differential expression results. 
 
 
 
