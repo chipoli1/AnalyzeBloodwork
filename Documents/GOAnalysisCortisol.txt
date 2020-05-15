@@ -1,0 +1,17 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.3727280 Released 2020-03-23
+Analyzed List:	Client Text Box Input (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20851)	Client Text Box Input (13)	Client Text Box Input (expected)	Client Text Box Input (over/under)	Client Text Box Input (fold Enrichment)	Client Text Box Input (raw P-value)	Client Text Box Input (FDR)
+endocytic vesicle membrane (GO:0030666)	194	4	.12	+	33.07	5.26E-06	5.28E-03
+endocytic vesicle (GO:0030139)	328	4	.20	+	19.56	4.02E-05	1.61E-02
+external side of plasma membrane (GO:0009897)	432	5	.27	+	18.56	4.41E-06	8.86E-03
+side of membrane (GO:0098552)	630	5	.39	+	12.73	2.70E-05	1.36E-02
+cell surface (GO:0009986)	948	6	.59	+	10.15	1.17E-05	7.83E-03
