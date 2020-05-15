@@ -241,14 +241,7 @@ dev.off()
 
 
 
-|Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)|
-|Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14|
-|Analyzed List|Client Text Box Input (Homo sapiens)|
-|Reference List|Homo sapiens (all genes in database)|
-|Test Type|FISHER|
-|Correction|NONE|
-|Homo sapiens - REFLIST (20851)|Client Text Box Input (13)|
 |PANTHER Pathways|#|#|expected|Fold Enrichment|+/-|raw P value|
-Oxidative stress response|(P00046)|55|1	.03|+|29.16|3.43E-02|
+|Oxidative stress response|(P00046)|55|1	.03|+|29.16|3.43E-02|
 
 
