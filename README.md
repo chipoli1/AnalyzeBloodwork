@@ -241,12 +241,12 @@ dev.off()
 
 ## PANTHER Analysis
 
-Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)\
+### Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)\
 Annotation Version and Release Date:	PANTHER version 15.0 Released 2020-02-14\
 Analyzed List:	Client Text Box Input (Homo sapiens)\
 Reference List:	Homo sapiens (all genes in database)\
 Test Type:	FISHER\
-Correction: NONE\ 
+Correction: NONE
 
 
 |PANTHER Pathways|Homo Sapiens REF#|Client Text Input (CTI) #|CTI Expected|CTI Fold Enrichment|CTI +/-|CTI Raw P value|
