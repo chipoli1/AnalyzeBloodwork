@@ -210,7 +210,7 @@ dev.off()
 ### <p align="center"> Volcano Plot </p>
 
 <p align="center">
-  <img width="500" height="500" src="../master/Images/IL10plot.png">
+  <img width="500" height="500" src="../master/Images/SerumCortisolplot.png">
 </p>
 
 ## List all the differentially expressed/significant genes
