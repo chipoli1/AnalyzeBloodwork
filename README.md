@@ -213,9 +213,6 @@ dev.off()
 ###### <p align="center"> Information obtained from [Gene Cards](https://www.genecards.org/) </p> 
 
   
-
-
-<p align="center"> 
 |Gene|Aliases|
 |:--:|:-------:|
 |BHLHE40|Basic Helix-Loop-Helix Family Member E40|
@@ -231,6 +228,5 @@ dev.off()
 |MSR1|Macrophage Scavenger Receptor 1|
 |RAB8B|RAB8B, Member RAS Oncogene Family|
 |Tnfaip2|Tumor Necrosis Factor Alpha-Induced Protein 2|
-</p>
 
 
