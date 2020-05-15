@@ -240,7 +240,7 @@ dev.off()
 ###### Data & Information obtained from [Panther](http://pantherdb.org/) & [GeneOntology](http://geneontology.org/docs/ontology-documentation/).
 
 
-|                |Homo sapiens| |Client Text Input|
+|                |Homo sapiens| | |Client Text Input| | |
 |----------------|-|-|--------|---------------|---|-----------|
 |PANTHER Pathways|#|#|Expected|Fold Enrichment|+/-|Raw P value|
 |----------------|-|-|--------|---------------|---|-----------|
